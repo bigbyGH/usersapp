@@ -3,7 +3,6 @@ package com.usersapp.error;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.util.Date;
-import java.util.UUID;
 
 public class ErrorDTO {
 
@@ -18,12 +17,24 @@ public class ErrorDTO {
         return stamp;
     }
 
+    public void setStamp(Date stamp) {
+        this.stamp = stamp;
+    }
+
     public String getMessage() {
         return message;
     }
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
     public String getApplicationName() {
         return applicationName;
+    }
+
+    public void setApplicationName(String applicationName) {
+        this.applicationName = applicationName;
     }
 
     public ErrorDTO stamp(Date stamp) {
@@ -39,17 +50,5 @@ public class ErrorDTO {
     public ErrorDTO message(String message) {
         this.message = message;
         return this;
-    }
-
-    public void setStamp(Date stamp) {
-        this.stamp = stamp;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public void setApplicationName(String applicationName) {
-        this.applicationName = applicationName;
     }
 }

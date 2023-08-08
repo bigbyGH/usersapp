@@ -140,7 +140,7 @@ public class UserServiceImplTest {
     }
 
     @Test
-    void whenCreateUser_saveUserAndReturnDTOWithoutPassword()  {
+    void whenCreateUser_saveUserAndReturnDTOWithoutPassword() {
         UUID testId = UUID.randomUUID();
 
         User user = new User();

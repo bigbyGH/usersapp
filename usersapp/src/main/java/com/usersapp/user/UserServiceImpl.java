@@ -35,7 +35,7 @@ public class UserServiceImpl implements UserService {
     /**
      * Update User resource using UserDTO object and UUID.
      *
-     * @param uuid of the User resource
+     * @param uuid    of the User resource
      * @param userDTO resource data
      * @return UserDTO converted from saved User entity
      * @throws ResourceNotFoundException if UUID was not found

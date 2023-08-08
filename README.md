@@ -9,6 +9,10 @@ To find the IP, use:
 
 > sudo docker network inspect  usersapp_spring-cloud-network | grep Gateway
 
+To run tests:
+
+> mvn clean test
+
 ### API
 
 | # | Method | URI           | Success Status  | Optional json parameter  |
