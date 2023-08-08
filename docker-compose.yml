@@ -1,0 +1,27 @@
+version: '2'
+services:
+    usersdb:
+        container_name: usersapp-db
+        build:
+            context: ./usersdb
+            dockerfile: dockerfile
+        image: usersapp-db:latest
+        ports:
+            - 5432:5432
+        networks:
+            - spring-cloud-network
+    usersapp:
+        container_name: usersapp-service
+        depends_on:
+            - usersdb
+        build:
+            context: ./usersapp
+            dockerfile: dockerfile
+        image: usersapp-service:latest
+        ports:
+            - 8080:8080
+        networks:
+            - spring-cloud-network
+networks:
+    spring-cloud-network:
+        driver: bridge
