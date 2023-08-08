@@ -11,12 +11,12 @@ To find the IP, use:
 
 ### API
 
-| # | Method | URI           | Success Status  | Optional json parameter  |   |
-|---|--------|---------------|-----------------|--------------------------|---|
-|   | GET    | /users/{uuid} | 200             |                          |   |
-|   | POST   | /users        | 201             | "password"               |   |
-|   | PUT    | /users/{uuid} | 200             | "password"               |   |
-|   | DELETE | /users/{uuid} | 200             |                          |   |
+| # | Method | URI           | Success Status  | Optional json parameter  |
+|---|--------|---------------|-----------------|--------------------------|
+| 1 | GET    | /users/{uuid} | 200             |                          |
+| 2 | POST   | /users        | 201             | "password"               |
+| 3 | PUT    | /users/{uuid} | 200             | "password"               |
+| 4 | DELETE | /users/{uuid} | 200             |                          |
 
 User DTO json Request Body:
 
@@ -36,6 +36,8 @@ User DTO json Response Body:
 >   "surname" : "Surname",
 >   "email" : "email@address.user"
 >}
+
+### Usage
 
 To use the API use `data.json` file present in main dir
 
