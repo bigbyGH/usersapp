@@ -1,0 +1,20 @@
+/usersapp/HELP.md
+/usersapp/target/
+!./usersapp/mvn/wrapper/maven-wrapper.jar
+!**/usersapp/src/main/**/target/
+!**/usersapp/src/test/**/target/
+
+### STS ###
+/usersapp/.apt_generated
+/usersapp/.classpath
+/usersapp/.factorypath
+/usersapp/.project
+/usersapp/.settings
+/usersapp/.springBeans
+/usersapp/.sts4-cache
+
+### IntelliJ IDEA ###
+/usersapp/.idea
+/usersapp/*.iws
+/usersapp/*.iml
+/usersapp/*.ipr
