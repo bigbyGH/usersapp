@@ -15,12 +15,12 @@ To run tests, navigate to `usersapp` dir:
 
 ### API
 
-| # | Method | URI           | Success Status  | Optional json parameter  |
-|---|--------|---------------|-----------------|--------------------------|
-| 1 | GET    | /users/{uuid} | 200             |                          |
-| 2 | POST   | /users        | 201             | "password"               |
-| 3 | PUT    | /users/{uuid} | 200             | "password"               |
-| 4 | DELETE | /users/{uuid} | 200             |                          |
+| # | Method | URI           | Success Status  | Optional json parameter |
+|---|--------|---------------|-----------------|-------------------------|
+| 1 | GET    | /users/{uuid} | 200             |                         |
+| 2 | POST   | /users        | 201             |                         |
+| 3 | PUT    | /users/{uuid} | 200             | "password"              |
+| 4 | DELETE | /users/{uuid} | 200             |                         |
 
 User DTO json Request Body:
 
@@ -65,7 +65,7 @@ To DELETE:
 
 > curl -X DELETE http://172.17.0.1:8080/users/dcaea679-8a2a-4857-bf9a-3839b685e9c0  | json_pp
 
-
+---
 ### Tree
 
 ```
