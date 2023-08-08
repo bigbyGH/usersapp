@@ -62,9 +62,6 @@ To DELETE:
 ├── README.md
 ├── usersapp
 │   ├── dockerfile
-│   ├── HELP.md
-│   ├── mvnw
-│   ├── mvnw.cmd
 │   ├── pom.xml
 │   ├── src
 │   │   ├── main
@@ -98,53 +95,6 @@ To DELETE:
 │   │       │               └── UserServiceImplTest.java
 │   │       └── resources
 │   │           └── application-test.properties
-│   └── target
-│       ├── classes
-│       │   ├── application.properties
-│       │   └── com
-│       │       └── usersapp
-│       │           ├── base
-│       │           │   └── BaseEntity.class
-│       │           ├── error
-│       │           │   ├── ErrorDTO.class
-│       │           │   ├── ErrorService.class
-│       │           │   ├── exception
-│       │           │   │   └── ResourceNotFoundException.class
-│       │           │   └── GlobalExceptionHandler.class
-│       │           ├── user
-│       │           │   ├── User.class
-│       │           │   ├── UserController.class
-│       │           │   ├── UserDTO.class
-│       │           │   ├── UserRepository.class
-│       │           │   ├── UserService.class
-│       │           │   └── UserServiceImpl.class
-│       │           └── UsersAppApplication.class
-│       ├── generated-sources
-│       │   └── annotations
-│       ├── generated-test-sources
-│       │   └── test-annotations
-│       ├── maven-status
-│       │   └── maven-compiler-plugin
-│       │       ├── compile
-│       │       │   └── default-compile
-│       │       │       ├── createdFiles.lst
-│       │       │       └── inputFiles.lst
-│       │       └── testCompile
-│       │           └── default-testCompile
-│       │               ├── createdFiles.lst
-│       │               └── inputFiles.lst
-│       ├── surefire-reports
-│       │   ├── com.usersapp.user.UserControllerTest.txt
-│       │   ├── com.usersapp.user.UserServiceImplTest.txt
-│       │   ├── TEST-com.usersapp.user.UserControllerTest.xml
-│       │   └── TEST-com.usersapp.user.UserServiceImplTest.xml
-│       └── test-classes
-│           ├── application-test.properties
-│           └── com
-│               └── usersapp
-│                   └── user
-│                       ├── UserControllerTest.class
-│                       └── UserServiceImplTest.class
 └── usersdb
     ├── db.sql
     └── dockerfile
