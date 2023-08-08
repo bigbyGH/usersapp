@@ -55,7 +55,7 @@ To DELETE:
 
 > curl -X DELETE http://172.17.0.1:8080/users/dcaea679-8a2a-4857-bf9a-3839b685e9c0  | json_pp
 
-
+```
 .
 ├── data.json
 ├── docker-compose.yml
@@ -148,3 +148,4 @@ To DELETE:
 └── usersdb
     ├── db.sql
     └── dockerfile
+```
