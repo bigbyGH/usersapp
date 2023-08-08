@@ -20,22 +20,26 @@ To find the IP, use:
 
 User DTO json Request Body:
 
->{
->   "uuid" : "ee9d0c5b-a197-427b-b13a-c719f65ac1a1",
->   "name" : "Name",
->   "surname" : "Surname",
->   "email" : "email@address.user",
->   "password" : "passw0rd"
->}
+```
+{
+   "uuid" : "ee9d0c5b-a197-427b-b13a-c719f65ac1a1",
+   "name" : "Name",
+   "surname" : "Surname",
+   "email" : "email@address.user",
+   "password" : "passw0rd"
+}
+```
 
 User DTO json Response Body:
 
->{
->   "uuid" : "ee9d0c5b-a197-427b-b13a-c719f65ac1a1",
->   "name" : "Name",
->   "surname" : "Surname",
->   "email" : "email@address.user"
->}
+```
+{
+   "uuid" : "ee9d0c5b-a197-427b-b13a-c719f65ac1a1",
+   "name" : "Name",
+   "surname" : "Surname",
+   "email" : "email@address.user"
+}
+```
 
 ### Usage
 
